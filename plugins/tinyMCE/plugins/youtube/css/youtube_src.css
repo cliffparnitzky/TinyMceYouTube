@@ -1,0 +1,88 @@
+li {list-style: none;}
+li:hover, li.selected{background: #DDDDDD}
+input[type=radio]:checked{}
+.clear{display: block; clear: both; height: 10px;}
+.size-list {
+    margin: 0;
+    padding: 0;
+    min-width: 490px;
+    overflow: visible;
+    clear: both;
+}
+.size {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 4px;
+    padding: 4px;
+}
+.size > label {
+    display: block;
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+}
+.size-radio {
+    display: none;
+}
+
+body, button, input, textarea {
+    font: 12px arial,sans-serif;
+}
+.size .size-name {
+    color: #666666;
+    display: block;
+    white-space: nowrap;
+}
+.size .size-box {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #999999;
+    display: block;
+    margin: auto 0;
+    padding: 1px;
+}
+.size.default .size-box {
+    height: 32px;
+    margin-left: 4px;
+    width: 42px;
+}
+.size.default.wide .size-box {
+    height: 27px;
+    width: 49px;
+}
+.size.medium.wide .size-box {
+    height: 31px;
+    width: 56px;
+}
+.size.large.wide .size-box {
+    height: 35px;
+    width: 64px;
+}
+.size.hd720.wide .size-box {
+    height: 42px;
+    width: 75px;
+}
+.size.custom {
+    text-align: right;
+}
+.size {
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin: 4px;
+    padding: 4px;
+}
+.customize {
+    padding: 0.5em;
+}
+.size.custom .customize li {
+    margin: 0.25em;
+}
+.yt-uix-form-input-text {
+    width: 40px;
+}
+.mceActionPanel {
+    clear: both;
+}
