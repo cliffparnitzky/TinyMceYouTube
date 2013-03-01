@@ -1,5 +1,5 @@
-Contao TinyMceYouTube Extension
-===============================
+Contao Extension: TinyMceYouTube
+================================
 
 Special TinyMCE plugin to add videos from YouTube into the editor via button.
 
@@ -21,7 +21,7 @@ Compatibility
 -------------
 
 - min. version: Contao 2.10.0
-- max. version: Contao 2.11.7
+- max. version: Contao 2.11.x
 
 
 Dependency
