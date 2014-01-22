@@ -25,6 +25,7 @@ Compatibility
 
 (For Contao 2 look at the [master_c2 Branch](https://github.com/cliffparnitzky/TinyMceYouTube/tree/master_c2))
 
+
 Dependency
 ----------
 
