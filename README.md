@@ -23,7 +23,7 @@ Compatibility
 - min. version: Contao 3.0.x
 - max. version: Contao 3.2.x
 
-(For Contao 2 look at the [[master_c2 Branch]](https://github.com/cliffparnitzky/TinyMceYouTube/tree/master_c2))
+(For Contao 2 look at the [master_c2 Branch](https://github.com/cliffparnitzky/TinyMceYouTube/tree/master_c2))
 
 Dependency
 ----------
