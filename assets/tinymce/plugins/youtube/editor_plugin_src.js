@@ -28,7 +28,7 @@
                 ed.windowManager.open({
                     file: url + '/youtube.htm',
                     width: 500,
-                    height: 200,
+                    height: 225,
                     inline: 1
                 }, {
                     plugin_url: url, // Plugin absolute URL
