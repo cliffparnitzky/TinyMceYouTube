@@ -1,7 +1,7 @@
 {
 	"name":"cliffparnitzky/tiny-mce-you-tube",
 	"description":"Special TinyMCE plugin to add videos from YouTube into the editor via button.",
-	"keywords":["contao","tinymce","tiny editor","tinymce plugin","youtube"],
+	"keywords":["contao","tinymce","tiny editor","tinymce plugin","youtube","tinymce4"],
 	"type":"contao-module",
 	"license":"LGPL-3.0+",
 	"authors":[
@@ -18,19 +18,22 @@
 	},
 	"require":{
 		"php":">=5.3",
-		"contao/core":">=2.9.5,<3.3.0",
+		"contao/core":">=3.3.0,<3.5",
 		"contao-community-alliance/composer-installer":"*",
-		"cliffparnitzky/tiny-mce-plugin-loader":">=1.0.0,<2.0.x-dev"
+		"cliffparnitzky/tiny-mce-plugin-loader":">=2.1.1"
+	},
+	"conflict": {
+		"contao/core":"3.4.0,3.4.1,3.4.2"
 	},
 	"extra":{
 		"contao":{
 			"sources":{
-				"assets/tinymce/plugins/youtube":"assets/tinymce/plugins/youtube",
+				"assets/tinymce4/plugins/youtube":"assets/tinymce4/plugins/youtube",
 				"system/modules/TinyMceYouTube":"system/modules/TinyMceYouTube"
 			}
 		},
 		"branch-alias": {
-			"dev-master": "1.0.x-dev"
+			"dev-tinymce4": "2.0.x-dev"
 		}
 	}
 }

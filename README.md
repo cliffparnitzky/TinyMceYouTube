@@ -1,14 +1,23 @@
+[![Latest Version on Packagist](http://img.shields.io/packagist/v/cliffparnitzky/tiny-mce-you-tube.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/tiny-mce-you-tube)
+[![Installations via composer per month](http://img.shields.io/packagist/dm/cliffparnitzky/tiny-mce-you-tube.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/tiny-mce-you-tube)
+[![Installations via composer total](http://img.shields.io/packagist/dt/cliffparnitzky/tiny-mce-you-tube.svg?style=flat)](https://packagist.org/packages/cliffparnitzky/tiny-mce-you-tube)
+
 Contao Extension: TinyMceYouTube
 ================================
 
 Special TinyMCE plugin to add videos from YouTube into the editor via button.
 
+The sources of this plugin could be found [here](https://github.com/gtraxx/tinymce-plugin-youtube).
+
+Now for TinyMCE 4.
+
 
 Installation
 ------------
 
-The extension is not published in contao extension repository.
-Install it manually or via [composer](https://packagist.org/packages/cliffparnitzky/tiny-mce-you-tube).
+Install the extension via composer: [cliffparnitzky/tiny-mce-you-tube](https://packagist.org/packages/cliffparnitzky/tiny-mce-you-tube).
+
+If you prefer to install it manually, download the latest release here: https://github.com/cliffparnitzky/TinyMceYouTube/releases
 
 
 Tracker
@@ -20,10 +29,8 @@ https://github.com/cliffparnitzky/TinyMceYouTube/issues
 Compatibility
 -------------
 
-- min. version: Contao 3.0.x
-- max. version: Contao 3.2.x
-
-(For Contao 2 look at the [master_c2 Branch](https://github.com/cliffparnitzky/TinyMceYouTube/tree/master_c2))
+- min. Contao version: >= 3.3.0
+- max. Contao version: <  3.5.0
 
 
 Dependency
@@ -41,4 +48,4 @@ Configuration
 Screenshot
 ----------
 
-![Screenshot](https://raw.github.com/cliffparnitzky/TinyMceYouTube/master/screenshot.jpg)
+![Screenshot](screenshot.jpg)
