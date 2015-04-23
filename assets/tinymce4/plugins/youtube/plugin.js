@@ -37,7 +37,7 @@
         // Add a button that opens a window
         editor.addButton("youtube", {
             icon: true,
-            image: url + "/img/youtube.gif",
+            image: url + "/img/youtube.png",
             tooltip:  tinymce.util.I18n.translate("YouTube Tooltip"),
             onclick: showDialog,
             onPostRender: function () {
@@ -47,5 +47,13 @@
                 });
             }
         });
+
+        editor.addMenuItem('youtube', {
+            text: 'YouTube',
+            icon: true,
+            image: url + "/img/youtube.png",
+            onclick: showDialog,
+            context: 'insert'
+        }); 
     });
 }(tinymce));
