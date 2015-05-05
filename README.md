@@ -39,13 +39,29 @@ Dependency
 - To load this plugin and add it to the configuration the extension [[TinyMcePluginLoader]](https://github.com/cliffparnitzky/TinyMcePluginLoader) has to be installed.
 
 
-Configuration
--------------
-
-- It's necessary to add `<iframe>` to the list of **Allowed HTML tags** (see Settings => Security Settings).
-
-
 Screenshot
 ----------
 
 ![Screenshot](screenshot.jpg)
+
+
+Additional information
+----------------------
+
+### Special notes
+
+It's necessary to add `<iframe>` to the list of **Allowed HTML tags** (see Settings => Security Settings).
+
+### Information in the wiki
+
+#### Create a new ...
+
+* [Creating a new plugin](wiki/Creating-a-new-plugin)
+* [Creating a new setup](wiki/Creating-a-new-setup)
+
+#### Installation hints
+* [Install manually](wiki/Install-manually)
+
+#### Bug report hints
+
+* [Report a bug](wiki/Report-a-bug)
