@@ -29,8 +29,7 @@ https://github.com/cliffparnitzky/TinyMceYouTube/issues
 Compatibility
 -------------
 
-- min. Contao version: >= 3.3.0
-- max. Contao version: <  3.6.0
+- Contao version >= 4.4.0
 
 
 Dependency
