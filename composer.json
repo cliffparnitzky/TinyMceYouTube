@@ -3,7 +3,7 @@
 	"description":"Special TinyMCE plugin to add videos from YouTube into the editor via button.",
 	"keywords":["contao","tinymce","tiny editor","tinymce plugin","youtube","tinymce4"],
 	"type":"contao-module",
-	"license":"LGPL-3.0+",
+	"license":"LGPL-3.0-or-later",
 	"authors":[
 		{
 			"name":"Cliff Parnitzky",
